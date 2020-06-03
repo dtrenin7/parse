@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestPosition(t *testing.T) {

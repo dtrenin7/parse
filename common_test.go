@@ -5,7 +5,7 @@ import (
 	"mime"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestParseNumber(t *testing.T) {

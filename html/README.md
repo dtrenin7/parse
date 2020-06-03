@@ -1,15 +1,15 @@
-# HTML [![GoDoc](http://godoc.org/github.com/tdewolff/parse/html?status.svg)](http://godoc.org/github.com/tdewolff/parse/html)
+# HTML [![GoDoc](http://godoc.org/github.com/dtrenin7/parse/html?status.svg)](http://godoc.org/github.com/dtrenin7/parse/html)
 
 This package is an HTML5 lexer written in [Go][1]. It follows the specification at [The HTML syntax](http://www.w3.org/TR/html5/syntax.html). The lexer takes an io.Reader and converts it into tokens until the EOF.
 
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/html
+	go get -u github.com/dtrenin7/parse/v2/html
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/html"
+	import "github.com/dtrenin7/parse/v2/html"
 
 ## Lexer
 ### Usage
@@ -60,7 +60,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/html"
+	"github.com/dtrenin7/parse/v2/html"
 )
 
 // Tokenize HTML from stdin.
@@ -93,6 +93,6 @@ func main() {
 ```
 
 ## License
-Released under the [MIT license](https://github.com/tdewolff/parse/blob/master/LICENSE.md).
+Released under the [MIT license](https://github.com/dtrenin7/parse/blob/master/LICENSE.md).
 
 [1]: http://golang.org/ "Go Language"

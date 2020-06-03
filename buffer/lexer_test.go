@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestLexer(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/parse/v2/buffer"
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/parse/v2/buffer"
+	"github.com/dtrenin7/test"
 )
 
 func TestError(t *testing.T) {

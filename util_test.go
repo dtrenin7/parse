@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func helperRandChars(n, m int, chars string) [][]byte {

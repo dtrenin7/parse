@@ -1,15 +1,15 @@
-# JSON [![GoDoc](http://godoc.org/github.com/tdewolff/parse/json?status.svg)](http://godoc.org/github.com/tdewolff/parse/json)
+# JSON [![GoDoc](http://godoc.org/github.com/dtrenin7/parse/json?status.svg)](http://godoc.org/github.com/dtrenin7/parse/json)
 
 This package is a JSON lexer (ECMA-404) written in [Go][1]. It follows the specification at [JSON](http://json.org/). The lexer takes an io.Reader and converts it into tokens until the EOF.
 
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/json
+	go get -u github.com/dtrenin7/parse/v2/json
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/json"
+	import "github.com/dtrenin7/parse/v2/json"
 
 ## Parser
 ### Usage
@@ -51,7 +51,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/json"
+	"github.com/dtrenin7/parse/v2/json"
 )
 
 // Tokenize JSON from stdin.
@@ -76,6 +76,6 @@ func main() {
 ```
 
 ## License
-Released under the [MIT license](https://github.com/tdewolff/parse/blob/master/LICENSE.md).
+Released under the [MIT license](https://github.com/dtrenin7/parse/blob/master/LICENSE.md).
 
 [1]: http://golang.org/ "Go Language"

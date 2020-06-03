@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/parse/v2"
+	"github.com/dtrenin7/test"
 )
 
 type TTs []TokenType
